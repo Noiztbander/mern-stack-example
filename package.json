@@ -1,0 +1,32 @@
+{
+  "name": "mern-stack-example",
+  "version": "1.0.0",
+  "description": "This is a repository done just for studying and apply Mongo, Exprees, React and Node as a Fullstack project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Noiztbander/mern-stack-example.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Noiztbander/mern-stack-example/issues"
+  },
+  "homepage": "https://github.com/Noiztbander/mern-stack-example#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.13.6",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12",
+    "webpack": "^5.50.0"
+  }
+}
