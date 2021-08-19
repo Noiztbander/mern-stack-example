@@ -6,17 +6,12 @@ const Task = require("../models/task-model");
 // read DB
 router.get("/", async (req, res) => {
   const foundTasks = await Task.find();
-  console.log(foundTasks);
-  res.json({
-    message: "hola",
-  });
+  res.json(foundTasks);
 });
 
 router.get("/:id", async (req, res) => {
   const foundTask = await Task.findById(req.params.id);
-	res.json({
-		message: foundTask
-	});
+	res.json(foundTask);
 });
 
 // create DB
